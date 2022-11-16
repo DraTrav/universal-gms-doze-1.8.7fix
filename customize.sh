@@ -59,7 +59,7 @@ PATCH_SX() {
         if [ -d $MODPATH/$P ]; then
             ui_print "- Moving files to module dir"
             mkdir -p $MODPATH/system/$P
-            mv -f $MODPATH/$P $MODPATH/system/$P
+            mv -f $MODPATH/$P $MODPATH/system/
         fi
     done
 }
